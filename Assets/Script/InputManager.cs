@@ -5,7 +5,7 @@ using UnityEngine;
 public class InputManager : MonoBehaviour
 {
     [SerializeField] private PlayerController pc;
-    [SerializeField] private int no0fPlayer;
+    public int no0fPlayer;
     private Vector2 direction;
 
     private void GetDirection()
